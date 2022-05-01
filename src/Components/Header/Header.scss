@@ -1,0 +1,82 @@
+.Header{
+    padding: 0px;
+    margin: 0px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 30%;
+
+    &__FirstBox{
+
+        background-color: #DEDEDE;
+        height: 50%;
+        display: flex;
+
+
+        &__logo{
+            width: 10%;
+        }
+
+        &__Search{
+            display: flex;
+            height: inherit;
+            width: 50%;
+            margin: auto;
+
+            .Search__Box{
+                display: flex;
+                width: 100%;
+            }
+            
+            .BoxIcon__Icon{
+                .io-2{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+
+        &__ShopCart{
+            width: 7%;
+
+            .bs-3{
+                width: 3em;
+                height: 5em;
+            }
+        }
+    }
+
+    &__NavBar{
+        background-color: #454142;
+        height: 50%;
+        display: flex;
+
+        &__ul{
+            width: 50%;
+            text-align: center;
+            margin: 0;
+
+            li{
+                display: inline-flex;
+                border-radius: 8px;
+                transition: 0.3s ease;
+                
+                li:hover{
+                    background-color: #B5C78B;
+                    color:#454142;
+                }
+
+                a{
+                    display: inline-flex;
+                    text-decoration: none;
+                    padding: 1rem 1rem;
+                    font-size: 1rem;
+                    color: #B5C78B;
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    
+}
