@@ -29,7 +29,7 @@ export default function Header() {
             </li>
           </ul>
 
-          <input type='button' className="Header__NavBar__BotonInicio" placeholder="Inicio Sesión" />
+          <input type='button' className="Header__NavBar__BotonInicio" value="Inicio Sesión" />
         </div>
     </div>
   )

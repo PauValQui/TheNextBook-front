@@ -4,7 +4,7 @@
     position: fixed;
     z-index: 100;
     width: 100%;
-    height: 30%;
+    height: 25%;
 
     &__FirstBox{
 
@@ -14,7 +14,7 @@
 
 
         &__logo{
-            width: 10%;
+            width: 8%;
         }
 
         &__Search{
@@ -29,6 +29,7 @@
             }
             
             .BoxIcon__Icon{
+                
                 .io-2{
                     width: 100%;
                     height: 100%;
@@ -41,7 +42,7 @@
 
             .bs-3{
                 width: 3em;
-                height: 5em;
+                height: 4em;
             }
         }
     }
@@ -52,13 +53,14 @@
         display: flex;
 
         &__ul{
-            width: 50%;
+            width: 90%;
             text-align: center;
             margin: 0;
 
             li{
                 display: inline-flex;
                 border-radius: 8px;
+                margin:1%;
                 transition: 0.3s ease;
                 
                 li:hover{
@@ -75,6 +77,13 @@
                     outline: none;
                 }
             }
+        }
+
+        &__BotonInicio{
+            width: 10%;
+            margin: 1%;
+            color: #3A4408;
+            font-weight: bold;
         }
     }
 
