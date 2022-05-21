@@ -1,7 +1,7 @@
 .Header{
     padding: 0px;
     margin: 0px;
-    position: fixed;
+    position: relative;
     z-index: 100;
     width: 100%;
     height: 25%;
@@ -19,7 +19,7 @@
 
         &__Search{
             display: flex;
-            height: inherit;
+            height: 40px;
             width: 50%;
             margin: auto;
 
@@ -39,7 +39,7 @@
 
         &__ShopCart{
             width: 7%;
-
+            margin-top: 10px;
             .bs-3{
                 width: 3em;
                 height: 4em;
