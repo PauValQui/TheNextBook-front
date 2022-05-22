@@ -5,6 +5,7 @@ import {NavLink} from 'react-router-dom';
 import {BsCart3} from "react-icons/bs";
 import {IoSearchCircle} from "react-icons/io5";
 
+
 export default function Header() {
   return (
     <div className="Header">
@@ -29,7 +30,9 @@ export default function Header() {
             </li>
           </ul>
 
-          <input type='button' className="Header__NavBar__BotonInicio" value="Inicio Sesión" />
+          <button className="Header__NavBar__BotonInicio">
+            <NavLink to='/Login' className="Header__NavBar__BotonInicio__Enlace">Inicio Sesión</NavLink>
+          </button>
         </div>
     </div>
   )
